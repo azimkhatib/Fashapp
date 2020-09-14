@@ -1,0 +1,188 @@
+name: onlineshop
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+   sdk: flutter
+#
+#  firebase_auth: ^0.16.1
+#  firebase_auth: ^0.6.6
+#  cloud_firestore: ^0.13.7
+#  cloud_firestore: any
+#  google_sign_in: ^4.5.1
+#  shared_preferences: ^0.5.8
+#  fluttertoast: ^7.0.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+  http: any
+  shared_preferences: any
+  carousel_slider: ^2.2.1
+  carousel_pro: ^1.0.0
+  flutter_secure_storage: ^3.3.3
+  flutter_launcher_icons: ^0.7.5
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+  - assets/mdl99.jpg
+  - assets/bolly2.jpg
+  - assets/holly.jpg
+  - assets/holly2.jpg
+  - assets/kids.jpg
+  - assets/kids2.jpg
+  - assets/mdl6.jpg
+  - assets/mdl777.jpg
+  - assets/mdl8.jpg
+#  - assets/mdl9.jpg
+  - assets/mdl10.jpg
+#  - assets/mdl2.jpg
+  - assets/1.png
+  - assets/2.png
+  - assets/3.png
+  - assets/4.png
+  - assets/5.png
+  - assets/6.png
+  - assets/7.png
+#  - assets/shirt.png
+#  - assets/pant.png
+  -  assets/beard.jpg
+  -  assets/blezer.jpg
+  -  assets/formal.jpg
+  -  assets/kadak.jpg
+  -  assets/pants.jpg
+  -  assets/seat.jpg
+  -  assets/kash.jpg
+  -  assets/maal.jpg
+  -  assets/white.jpg
+  -  assets/vikings.jpg
+  -  assets/shh.jpg
+  -  assets/sara.jpg
+  -  assets/drs.jpg
+  -  assets/drs1.jpg
+  -  assets/drs2.jpg
+  -  assets/drs3.jpg
+  -  assets/drs4.png
+  -  assets/drs5.jpeg
+  -  assets/drs6.jpg
+  -  assets/drs7.jpg
+  -  assets/drs8.jpg
+  -  assets/drs9.jpg
+  -  assets/drs10.jpg
+  -  assets/drs55.jpg
+  -  assets/sh.jpeg
+  -  assets/sh1.jpeg
+  -  assets/sh2.jpg
+  -  assets/sh3.jpg
+  -  assets/sh4.jpg
+  -  assets/sh5.jpg
+  -  assets/sh6.jpg
+  -  assets/sh7.jpg
+  -  assets/sh8.jpg
+  -  assets/BL.jpg
+  -  assets/ML.jpg
+  -  assets/BLshirt.jpg
+  -  assets/BLU.jpg
+  -  assets/BLUshirt.jpg
+  -  assets/MLshirt.jpg
+  -  assets/PR.jpg
+  -  assets/WT.jpg
+  -  assets/WTshirt.jpg
+  -  assets/in99.jpg
+  -  assets/inf.jpg
+  -  assets/inf1.jpg
+  -  assets/inf2.jpg
+  -  assets/inf3.jpg
+  -  assets/inf4.jpg
+  -  assets/inf5.jpg
+  -  assets/inf6.jpg
+  -  assets/inf7.jpg
+  -  assets/inf8.jpg
+  -  assets/inf9.jpg
+  -  assets/inf10.jpg
+  -  assets/inff.jpg
+  -  assets/fr.jpg
+  -  assets/fr1.jpg
+  -  assets/fr2.jpg
+  -  assets/fr3.jpg
+  -  assets/fr4.jpg
+  -  assets/fr5.jpg
+  -  assets/fr6.jpg
+  -  assets/fr7.jpg
+  -  assets/fr8.jpg
+  -  assets/fr9.jpg
+  -  assets/pn.jpg
+  -  assets/pn1.jpg
+  -  assets/pn2.jpg
+  -  assets/pn3.jpg
+  -  assets/pn4.jpg
+  -  assets/pn5.jpg
+  -  assets/pn6.jpg
+  -  assets/pn7.jpg
+  -  assets/pn8.jpg
+  -  assets/pn9.jpg
+  -  assets/pn10.jpg
+  -  assets/pn11.jpg
+flutter_icons:
+  image_path: "assets/azim/fashh.png"
+  android: true
+  ios: true
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

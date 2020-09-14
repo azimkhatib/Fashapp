@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "136029013820",
+    "firebase_url": "https://e-commarce-a5297.firebaseio.com",
+    "project_id": "e-commarce-a5297",
+    "storage_bucket": "e-commarce-a5297.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136029013820:android:54a0f258c6a484935e4039",
+        "android_client_info": {
+          "package_name": "com.example.onlineshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136029013820-ora9rren0gi4499s7tq8it4don0dunmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.onlineshop",
+            "certificate_hash": "32597499f4ab7508f763f6f7f234eee91a2ca734"
+          }
+        },
+        {
+          "client_id": "136029013820-762teqo34rc45io4152copojbu4gms61.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZ5QgMJd8dP1u6haN-HzTMnC6JYVbvVtE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136029013820-762teqo34rc45io4152copojbu4gms61.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
